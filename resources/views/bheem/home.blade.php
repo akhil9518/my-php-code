@@ -1038,7 +1038,7 @@
           </p>
         </div>
         <div class="col-md-6 text-center" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
-          <img src="../images/about-us.png" alt="About Bheem Bharat" class="about-img">
+          <img src="../images/aboutus.png" alt="About Bheem Bharat" class="about-img">
         </div>
       </div>
     </div>
