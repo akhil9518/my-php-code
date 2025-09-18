@@ -1044,7 +1044,7 @@
     </div>
   </section>
 
-  <!-- How It Works Section -->
+ 
   <section id="how" class="container-fluid how-section">
     <div class="container">
       <div class="row align-items-center">
