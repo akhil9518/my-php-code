@@ -378,14 +378,16 @@
   <!-- Hero Section -->
   <section class="hero-section mt-5 position-relative" style="background-color: #002366">
     <div class="hero-overlay">
-      <h1>ROOM, FLAT & ACCOMMODATION SUPPORT</h1>
-      <p>Moving to a new city for studies, job, or business? Don't worry!</p>
-      <h5 class="mt-4 fw-bold">WITH BHEEM BHARAT ACCOMMODATION NETWORK, YOU CAN:</h5>
+      <h1>ROOM, COMMUNITY HALL & EVENT SPACE SUPPORT</h1>
+      <p>Moving to a new city for studies, work, or business? Don’t worry!</p>
+      <h5 class="mt-4 fw-bold">With Bheem Bharat Accommodation Network, you can easily find:</h5>
       <ul>
-        <li>Bheembharat.com is a dedicated platform offering residential stays and rental properties exclusively for the SC, ST, and OBC community.</li>
-        <li>The portal provides safe, affordable, and community-centric accommodation options in Ambedkar Bhawan and Buddh Bihar colonies across various states of India, ensuring accessible housing and social upliftment.</li>
+        <li><strong>Rooms for Stay (Short & Long Term):</strong> Safe, affordable, and community-focused accommodation options in Ambedkar Bhawan and Buddh Bihar colonies across multiple states.</li>
+        <li><strong>Community Halls:</strong> Spacious, accessible halls for social gatherings, cultural activities, and community meetings.</li>
+        <li><strong>Open Areas for Events:</strong> Dedicated open spaces for hosting public events, seminars, and social programs within a supportive community environment.</li>
       </ul>
-    </div>
+      <p>👉 Bheembharat.com is exclusively designed for the SC, ST, and OBC community, ensuring not just housing, but also dignity, safety, and social upliftment.</p>
+</div>
       <!-- Features Section -->
   <div class="container-fluid features px-5" style="color: #f8f8f8">
     <div class="row text-center">

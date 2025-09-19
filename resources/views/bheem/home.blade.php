@@ -1293,6 +1293,18 @@
         authFormContent.innerHTML = `
           <h2>Sign Up</h2>
           <div class="form-group">
+            <label for="signupName">Name</label>
+            <input type="text" id="signupName" placeholder="Enter your name" required>
+          </div>
+          <div class="form-group">
+            <label for="signupAddress">Address</label>
+            <input type="text" id="signupAddress" placeholder="Enter your address" required>
+          </div>
+          <div class="form-group">
+            <label for="signupPhone">Phone Number</label>
+            <input type="tel" id="signupPhone" placeholder="Enter your phone number" required>
+          </div>
+          <div class="form-group">
             <label for="signupEmail">Email</label>
             <input type="email" id="signupEmail" placeholder="Enter your email" required>
           </div>
@@ -1314,15 +1326,21 @@
     }
 
     function handleSignup() {
+      const name = document.getElementById('signupName').value;
+      const address = document.getElementById('signupAddress').value;
+      const phone = document.getElementById('signupPhone').value;
       const email = document.getElementById('signupEmail').value;
       const password = document.getElementById('signupPassword').value;
 
-      if (!email || !password) {
+      if (!name || !address || !phone || !email || !password) {
         showNotification('Please fill in all fields', 'warning');
         return;
       }
 
       // Store user credentials in localStorage (for demo purposes)
+      localStorage.setItem('userName', name);
+      localStorage.setItem('userAddress', address);
+      localStorage.setItem('userPhone', phone);
       localStorage.setItem('userEmail', email);
       localStorage.setItem('userPassword', password);
       showNotification('Sign up successful! Please login.', 'success');
