@@ -386,7 +386,8 @@
     }
 
     .how-img {
-      width: 550px;
+      max-width: 550px;
+      width: 100%;
       transition: all 0.3s ease;
     }
 
@@ -914,7 +915,29 @@
       }
       
       .map-wrapper {
-        max-width: 400px;
+        max-width: 100%;
+      }
+
+      .orange-circle {
+        width: 200px;
+        height: 200px;
+        right: 0;
+      }
+
+      .how-img {
+        max-width: 100%;
+      }
+
+      .about-img {
+        max-width: 100%;
+      }
+
+      .why-img {
+        max-width: 100%;
+      }
+
+      .join-img {
+        max-width: 100%;
       }
       
       .join-text {
@@ -1422,4 +1445,4 @@
     console.log('Bheem Bharat - Dynamic Website with Authentication Loaded Successfully! 🎉');
   </script>
 </body>
-</html>
+</html> 
