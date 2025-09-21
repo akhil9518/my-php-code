@@ -579,6 +579,7 @@
           <img
             src="../images/joinmomemt-removebg-preview.png"
             alt="Join Movement"
+            class="join-img"
           />
         </div>
       </div>
